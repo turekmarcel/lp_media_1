@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fdfdfd;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 1rem 0 0.5rem;
+}
+
+.container-gerlach {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.banner-gerlach {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.banner-gerlach img {
+  max-width: 1360px;
+  width: 100%;
+  height: auto;
+}
+
+.cards-gerlach {
+  display: flex;
+  justify-content: space-between;
+}
+.cards-gerlach .card {
+  width: 32%;
+  border: 1px solid #9d1f36;
+  padding: 5px;
+  height: auto;
+}
+.cards-gerlach .card h3 {
+  text-align: center;
+  padding: 5px;
+  font-size: 1rem;
+}
+.cards-gerlach .card .card-imgs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+.cards-gerlach .card .card-imgs img {
+  flex: 1;
+  max-width: 120px;
+  height: auto;
+}
+.cards-gerlach .card .card-imgs span {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #9d1f36;
+}
+.cards-gerlach .card .card-imgs .img-fix {
+  max-width: 180px;
+}
+.cards-gerlach .card .card-imgs .pan-fix {
+  max-width: 145px;
+}
+
+.product-destription {
+  display: flex;
+  margin-top: 40px;
+}
+.product-destription .product-img {
+  flex: 1.5;
+}
+.product-destription .product-img img {
+  height: auto;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.product-destription .title {
+  flex: 2;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+.product-destription .title p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  text-align: justify;
+}
+
+.product-bars {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+.product-bars .bar-one {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 55%;
+  background-color: rgb(144, 144, 144);
+  padding: 5px;
+}
+.product-bars .bar-one p {
+  font-size: 2rem;
+  color: #fff;
+  padding: 10px;
+}
+.product-bars .bar-one p span {
+  position: absolute;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #fff;
+  right: -15px;
+  top: calc(50% - 1.5rem);
+  z-index: 10;
+}
+.product-bars .bar-one img {
+  width: 150px;
+  transform: translateY(35px);
+  z-index: 10;
+}
+.product-bars .bar-one .knife-img {
+  width: 120px;
+  transform: translateY(0);
+}
+.product-bars .bar-one .smart-size {
+  transform: translateY(20px);
+}
+.product-bars .bar-two {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 55%;
+  padding: 5px;
+  background-color: #9d1f36;
+}
+.product-bars .bar-two p {
+  font-size: 2rem;
+  color: #fff;
+  padding: 10px;
+  margin-left: 30px;
+}
+.product-bars .bar-two p span {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  color: #9d1f36;
+  font-weight: 900;
+  background-color: #fff;
+  border-radius: 50%;
+  line-height: 70px;
+  text-align: center;
+}
+.product-bars .bar-two img {
+  width: 110px;
+  transform: translateX(-25px);
+}
+.product-bars .bar-two .img-size {
+  width: 150px;
+  transform: translate(-35px, 25px);
+}
+
+.steps-gerlach {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  height: 100%;
+}
+.steps-gerlach .step-instruction {
+  display: flex;
+  align-content: space-between;
+  height: 100%;
+  flex: 1;
+}
+.steps-gerlach .step-instruction ul {
+  list-style: none;
+}
+.steps-gerlach .step-instruction ul li {
+  font-size: 1.2rem;
+}
+.steps-gerlach .step-instruction ul li span {
+  color: #9d1f36;
+  font-weight: 900;
+  font-size: 2.4rem;
+  margin-right: 10px;
+}
+.steps-gerlach .example-product {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.steps-gerlach .example-product .first-product,
+.steps-gerlach .example-product .second-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px #9d1f36 solid;
+  width: 250px;
+  height: 350px;
+  margin-bottom: 5px;
+}
+.steps-gerlach .example-product span {
+  font-weight: 900;
+  color: #9d1f36;
+  font-size: 2.5rem;
+  margin: 0 15px;
+}
+.steps-gerlach img {
+  max-width: 90%;
+}
+.steps-gerlach .img-pan {
+  max-width: 70%;
+}
+.steps-gerlach .img-country {
+  max-width: 40%;
+}
+
+.steps-gerlach {
+  display: flex;
+}
+
+@media only screen and (max-width: 1150px) {
+  .cards-gerlach {
+    margin: 0 auto;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 850px;
+  }
+  .cards-gerlach .card {
+    width: 350px;
+    margin-bottom: 5px;
+    max-width: 400px;
+  }
+  .cards-gerlach .card .card-imgs .img-fix {
+    max-width: 135px;
+  }
+  .product-destription .product-img {
+    flex: 1.5;
+  }
+  .product-destription .title {
+    flex: 2;
+    padding: 0.7rem;
+  }
+  .product-destription .title p {
+    font-size: 0.8rem;
+  }
+  .product-bars .bar-one p {
+    font-size: 1.7rem;
+  }
+  .product-bars .bar-two p {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+  .product-destription {
+    flex-direction: column;
+  }
+  .product-destription .product-img {
+    width: 100%;
+  }
+  .product-destription .title {
+    width: 100%;
+    padding: 0.7rem;
+  }
+  .product-destription .title p {
+    font-size: 1rem;
+  }
+  .product-bars {
+    flex-direction: column;
+    height: 100%;
+  }
+  .product-bars .bar-one,
+  .product-bars .bar-two {
+    justify-content: center;
+    width: 100%;
+  }
+  .product-bars .bar-one {
+    margin-top: 10px;
+    max-height: 100px;
+  }
+  .product-bars .bar-one .knife-img {
+    max-width: 90px;
+  }
+  .product-bars .bar-one p span {
+    right: calc(50% - 1.5rem);
+    top: 76%;
+  }
+  .product-bars .bar-one p .sec-plus {
+    top: 72%;
+  }
+  .steps-gerlach {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .steps-gerlach .example-product .first-product,
+  .steps-gerlach .example-product .second-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px #9d1f36 solid;
+    width: 200px;
+    height: 300px;
+    margin-bottom: 5px;
+  }
+  .steps-gerlach .example-product span {
+    font-weight: 900;
+    color: #9d1f36;
+    font-size: 2.5rem;
+    margin: 0 15px;
+  }
+  .steps-gerlach img {
+    max-width: 90%;
+  }
+  .steps-gerlach .img-pan {
+    max-width: 70%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .section-title {
+    padding: 10px;
+  }
+  .product-bars .bar-one p {
+    font-size: 1rem;
+  }
+  .product-bars .bar-one p span {
+    top: 68%;
+  }
+  .product-bars .bar-one p .sec-plus {
+    top: 72%;
+  }
+  .product-bars .bar-one img {
+    width: 100px;
+  }
+  .product-bars .bar-two p {
+    font-size: 1rem;
+  }
+  .product-bars .bar-two p span {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+  }
+  .product-bars .bar-two img {
+    width: 100px;
+    transform: translateX(-20px);
+  }
+  .product-bars .bar-two .img-size {
+    width: 100px;
+  }
+  .steps-gerlach .step-instruction ul li {
+    font-size: 1rem;
+  }
+  .steps-gerlach .example-product {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
